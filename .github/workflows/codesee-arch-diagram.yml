@@ -24,7 +24,7 @@ jobs:
       # codesee-detect-languages has an output with id languages.
       - name: Detect Languages
         id: detect-languages
-        uses: Codesee-io/codesee-detect-languages-action@latest
+        uses: Codesee-io/codesee-detect-languages-action@b738594b054c087895d4f8bf96769f5747da0dc8
 
       - name: Configure JDK 16
         uses: actions/setup-java@v2
